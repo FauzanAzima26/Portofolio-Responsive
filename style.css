@@ -1,0 +1,27 @@
+.navbar-nav a:hover {
+  border-bottom: 1px solid blue;
+}
+.btn:hover {
+    background-color: white !important;
+    border: 1px solid blue !important;
+    color: blue !important;
+    
+}
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.card-img-top {
+    height: auto;
+    width: 100%;
+}
+  
+.card-body {
+    padding: 1rem;
+}
+
+.margin-nav{
+  margin:0 50px;
+}
+  
