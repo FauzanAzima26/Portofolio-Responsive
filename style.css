@@ -1,6 +1,3 @@
-.navbar-nav a:hover {
-  border-bottom: 1px solid blue;
-}
 .btn:hover {
     background-color: white !important;
     border: 1px solid blue !important;
@@ -21,12 +18,52 @@
     padding: 1rem;
 }
 
-.margin-nav{
+.margin-navbar-nav{
   margin:0 50px;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-} 
+/* .navbar-navbar-navbar-nav .navbar-nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+} */
+
+/* ----------------------------------- */
+navbar-nav {
+  width: 100%;
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px;
+}
+
+/* ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+} */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.25s;
+}
+.link:hover {
+  color: white !important;
+}
+
+.link::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background-color: blue;
+  scale: 1 0;
+  z-index: -1;
+  transition: 0.45s;
+  border-radius: 50px;
+}
+.link:hover::after {
+  scale: 1 1;
+}
