@@ -28,7 +28,7 @@
       rel="stylesheet"
     />
   </head>
-  <body style="height: 2000px;">
+  <body>
     <!--header section-->
     <div class="container-fluid bg-dark text-light pb-1">
       <h1 class="text-center">Welcome to My Website</h1>
@@ -49,12 +49,26 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mx-auto">
-            <a class="nav-link text-primary fw-bold me-5 aria-current="page" href="#">Home</a>
-            <a class="nav-link text-primary me-5 fw-bold" href="#">About</a>
-            <a class="nav-link text-primary fw-bold me-5" href="#">Service</a>
-            <a class="nav-link text-primary me-5 fw-bold" href="#">Blog</a>
-            <a class="nav-link text-primary fw-bold" href="#">Contacts</a>
+          <div class="navbar-nav mx-auto d-lg-flex">
+            <a href="#" class="link py-1 px-3 text-dark">Home</a>
+            <a href="#" class="link py-1 px-3 text-dark mx-lg-3">About</a>
+            <a href="#" class="link py-1 px-3 text-dark">Service</a>
+            <a href="#" class="link py-1 px-3 text-dark mx-lg-3">Blog</a>
+            <a href="#" class="link py-1 px-3 text-dark">Contacts</a>
+
+
+            <!-- <ul class="d-lg-flex gap-5 justify-content-center align-items-center mb-0">
+              <li><a href="#" class="link py-1 px-3 text-dark">Home</a></li>
+              <li><a href="#" class="link py-1 px-3 text-dark">About</a></li>
+              <li><a href="#" class="link py-1 px-3 text-dark">Service</a></li>
+              <li><a href="#" class="link py-1 px-3 text-dark">Blog</a></li>
+              <li><a href="#" class="link py-1 px-3 text-dark">Contacts</a></li>
+            </ul> -->
+            <!-- <a class="nav-link text-dark me-5 aria-current hover="page" href="#">Home</a>
+            <a class="nav-link text-dark me-5 hover" href="#">About</a>
+            <a class="nav-link text-dark me-5 hover" href="#">Service</a>
+            <a class="nav-link text-dark me-5 hover" href="#">Blog</a>
+            <a class="nav-link text-dark hover" href="#">Contacts</a> -->
           </div>
         </div>
       </div>
@@ -62,7 +76,7 @@
     <!--Home Section-->
     <div class="container col-xxl-8 px-4 py-5">
       <div class="row flex-lg-row-reverse align-items-start g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6 mt-0 mx-auto mx-sm-auto mx-md-auto">
+        <div class="col-10 col-sm-8 col-lg-5 mt-0 mx-auto mx-sm-auto mx-md-auto">
           <img
             src="9440461.jpg"
             class="d-block img-fluid rounded-circle ms-lg-auto mx-md-auto mx-auto float-end"
@@ -72,11 +86,11 @@
             loading="lazy"
           />
         </div>
-        <div class="col-lg-6 mt-0 mt-sm-5 mt-5 mt-lg-0">
-          <h1 class="display-5 fw-bold lh-1 mb-3">
+        <div class="col-lg-7 mt-0 mt-sm-5 mt-5 mt-lg-0">
+          <h1 class="display-5 lh-1 mb-3 fw-bold">
             FAUZAN AZIMA
           </h1>
-          <p class="lead" style="text-align: justify;">
+          <p class="lead">
             Quickly design and customize responsive mobile-first sites with
             Bootstrap, the world’s most popular front-end open source toolkit,
             featuring Sass variables and mixins, responsive grid system,
@@ -91,7 +105,7 @@
       </div>
     </div>
 
-    <div class="container d-lg-flex d-sm-block justify-content-around d-block">
+    <div id="sertif-card" class="container d-lg-flex d-sm-block justify-content-around d-block">
       <div class="card mx-sm-auto mx-auto" style="width: 18rem;">
         <img src="2-1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -113,10 +127,10 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
-    </div>
+      </div>
 
     <!-- progress -->
-     <div class="container mt-5 text-center mb-5">
+     <div class="container mt-5 text-center">
       <h3>My Skill</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, explicabo minus! Quod dolores quidem delectus ut, architecto harum sed reprehenderit ullam consequatur unde et ex porro rem.</p>
       <label for="">HTML</label>
@@ -134,8 +148,20 @@
       <label for="">PHP</label>
       <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div>
-      </div><br>
-     </div>
+      </div>
+     </div><br>
+
+     <!-- footer -->
+     <div class="card mt-5">
+      <!-- <div class="card-header">
+        Featured
+      </div> -->
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
 
     <!-- <div class="share">
       <p>Check out my:</p>
