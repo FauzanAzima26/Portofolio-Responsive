@@ -32,12 +32,6 @@ navbar-nav {
   padding: 24px 40px;
 }
 
-/* ul {
-  display: flex;
-  gap: 1.25rem;
-  list-style: none;
-} */
-
 .link {
   text-decoration: none;
   padding: 0.5rem 0.75rem;
